@@ -1,0 +1,29 @@
+.\objects\retarget.o: C:\Users\nopph\AppData\Local\Arm\Packs\Nuvoton\NuMicro_DFP\1.3.10\Device\NUC100\StdDriver\src\retarget.c
+.\objects\retarget.o: D:\Programs\Keil v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\retarget.o: C:\Users\nopph\AppData\Local\Arm\Packs\Nuvoton\NuMicro_DFP\1.3.10\Device\NUC100\Include\NUC100Series.h
+.\objects\retarget.o: C:\Users\nopph\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm0.h
+.\objects\retarget.o: D:\Programs\Keil v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\retarget.o: C:\Users\nopph\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h
+.\objects\retarget.o: C:\Users\nopph\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h
+.\objects\retarget.o: C:\Users\nopph\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h
+.\objects\retarget.o: C:\Users\nopph\AppData\Local\Arm\Packs\Nuvoton\NuMicro_DFP\1.3.10\Device\NUC100\Include\system_NUC100Series.h
+.\objects\retarget.o: C:\Users\nopph\AppData\Local\Arm\Packs\Nuvoton\NuMicro_DFP\1.3.4\Device\NUC100\Driver\sys.h
+.\objects\retarget.o: C:\Users\nopph\AppData\Local\Arm\Packs\Nuvoton\NuMicro_DFP\1.3.4\Device\NUC100\Driver\adc.h
+.\objects\retarget.o: C:\Users\nopph\AppData\Local\Arm\Packs\Nuvoton\NuMicro_DFP\1.3.4\Device\NUC100\Driver\fmc.h
+.\objects\retarget.o: C:\Users\nopph\AppData\Local\Arm\Packs\Nuvoton\NuMicro_DFP\1.3.4\Device\NUC100\Driver\gpio.h
+.\objects\retarget.o: C:\Users\nopph\AppData\Local\Arm\Packs\Nuvoton\NuMicro_DFP\1.3.4\Device\NUC100\Driver\i2c.h
+.\objects\retarget.o: C:\Users\nopph\AppData\Local\Arm\Packs\Nuvoton\NuMicro_DFP\1.3.4\Device\NUC100\Driver\pwm.h
+.\objects\retarget.o: C:\Users\nopph\AppData\Local\Arm\Packs\Nuvoton\NuMicro_DFP\1.3.4\Device\NUC100\Driver\spi.h
+.\objects\retarget.o: C:\Users\nopph\AppData\Local\Arm\Packs\Nuvoton\NuMicro_DFP\1.3.4\Device\NUC100\Driver\crc.h
+.\objects\retarget.o: C:\Users\nopph\AppData\Local\Arm\Packs\Nuvoton\NuMicro_DFP\1.3.4\Device\NUC100\Driver\timer.h
+.\objects\retarget.o: C:\Users\nopph\AppData\Local\Arm\Packs\Nuvoton\NuMicro_DFP\1.3.4\Device\NUC100\Driver\wdt.h
+.\objects\retarget.o: C:\Users\nopph\AppData\Local\Arm\Packs\Nuvoton\NuMicro_DFP\1.3.4\Device\NUC100\Driver\wwdt.h
+.\objects\retarget.o: C:\Users\nopph\AppData\Local\Arm\Packs\Nuvoton\NuMicro_DFP\1.3.4\Device\NUC100\Driver\rtc.h
+.\objects\retarget.o: C:\Users\nopph\AppData\Local\Arm\Packs\Nuvoton\NuMicro_DFP\1.3.4\Device\NUC100\Driver\uart.h
+.\objects\retarget.o: C:\Users\nopph\AppData\Local\Arm\Packs\Nuvoton\NuMicro_DFP\1.3.4\Device\NUC100\Driver\i2s.h
+.\objects\retarget.o: C:\Users\nopph\AppData\Local\Arm\Packs\Nuvoton\NuMicro_DFP\1.3.4\Device\NUC100\Driver\usbd.h
+.\objects\retarget.o: C:\Users\nopph\AppData\Local\Arm\Packs\Nuvoton\NuMicro_DFP\1.3.4\Device\NUC100\Driver\pdma.h
+.\objects\retarget.o: C:\Users\nopph\AppData\Local\Arm\Packs\Nuvoton\NuMicro_DFP\1.3.4\Device\NUC100\Driver\sc.h
+.\objects\retarget.o: C:\Users\nopph\AppData\Local\Arm\Packs\Nuvoton\NuMicro_DFP\1.3.4\Device\NUC100\Driver\ps2.h
+.\objects\retarget.o: C:\Users\nopph\AppData\Local\Arm\Packs\Nuvoton\NuMicro_DFP\1.3.4\Device\NUC100\Driver\clk.h
+.\objects\retarget.o: C:\Users\nopph\AppData\Local\Arm\Packs\Nuvoton\NuMicro_DFP\1.3.4\Device\NUC100\Driver\acmp.h

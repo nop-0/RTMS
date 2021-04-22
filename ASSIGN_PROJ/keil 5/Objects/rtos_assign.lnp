@@ -1,0 +1,11 @@
+--cpu Cortex-M0
+".\objects\thread.o"
+".\objects\main.o"
+"C:\Users\nopph\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\RTOS\RTX\LIB\ARM\RTX_CM0.lib"
+".\objects\rtx_conf_cm.o"
+".\objects\retarget.o"
+".\objects\startup_nuc100series.o"
+".\objects\system_nuc100series.o"
+--ro-base 0x00000000 --entry 0x00000000 --rw-base 0x20000000 --entry Reset_Handler --first __Vectors --strict --summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\rtos_assign.map" -o .\Objects\rtos_assign.axf

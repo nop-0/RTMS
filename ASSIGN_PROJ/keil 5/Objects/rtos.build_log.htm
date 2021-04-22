@@ -1,0 +1,100 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.33.0.0
+Copyright (C) 2020 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: Nopphadon Uttraphan, Universiti Teknologi Petronas, LIC=----
+ 
+Tool Versions:
+Toolchain:       MDK-Lite  Version: 5.33.0.0
+Toolchain Path:  D:\Programs\Keil v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 7 (build 960)
+Assembler:       Armasm.exe V5.06 update 7 (build 960)
+Linker/Locator:  ArmLink.exe V5.06 update 7 (build 960)
+Library Manager: ArmAr.exe V5.06 update 7 (build 960)
+Hex Converter:   FromElf.exe V5.06 update 7 (build 960)
+CPU DLL:         SARMCM3.DLL V5.33.0.0
+Dialog DLL:      DARMCM1.DLL V1.19.4.0
+Target DLL:      UL2CM3.DLL V1.163.9.0
+Dialog DLL:      TARMCM1.DLL V1.14.3.0
+ 
+<h2>Project:</h2>
+D:\Desktop\Y4 Sem 1\RT MicroSys\keil 5\RTOS_assign\keil 5\rtos_assign.uvprojx
+Project File Date:  03/16/2021
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 7 (build 960)', folder: 'D:\Programs\Keil v5\ARM\ARMCC\Bin'
+Rebuild target 'Target 1'
+compiling Thread.c...
+compiling main.c...
+C:\Users\nopph\AppData\Local\Arm\Packs\Nuvoton\NuMicro_DFP\1.3.10\Device\NUC100\StdDriver\inc\sys.h(1521): warning:  #260-D: explicit type is missing ("int" assumed)
+  static __INLINE void SYS_LockReg(void)
+C:\Users\nopph\AppData\Local\Arm\Packs\Nuvoton\NuMicro_DFP\1.3.10\Device\NUC100\StdDriver\inc\sys.h(1521): error:  #65: expected a ";"
+  static __INLINE void SYS_LockReg(void)
+C:\Users\nopph\AppData\Local\Arm\Packs\Nuvoton\NuMicro_DFP\1.3.10\Device\NUC100\StdDriver\inc\sys.h(1545): warning:  #12-D: parsing restarts here after previous syntax error
+  void SYS_ClearResetSrc(uint32_t u32Src);
+C:\Users\nopph\AppData\Local\Arm\Packs\Nuvoton\NuMicro_DFP\1.3.10\Device\NUC100\StdDriver\inc\clk.h(269): error:  #35: #error directive: "The PLL pre-definitions are only valid when external crystal is 12MHz"
+  # error "The PLL pre-definitions are only valid when external crystal is 12MHz"
+main.c: 2 warnings, 2 errors
+compiling RTX_Conf_CM.c...
+assembling startup_NUC100Series.s...
+compiling retarget.c...
+compiling system_NUC100Series.c...
+".\Objects\rtos.axf" - 2 Error(s), 2 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.7.0.pack
+                ARM.CMSIS.5.7.0
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: RTOS Version: 1.0.0
+   * Component: CORE Version: 5.4.0
+   * Component: Keil RTX Version: 4.82.0
+
+Package Vendor: Nuvoton
+                http://www.nuvoton.com/hq/enu/Documents/KEILSoftwarePack/Nuvoton.NuMicro_DFP.1.3.10.pack
+                Nuvoton.NuMicro_DFP.1.3.10
+                Nuvoton ARM Cortex-M NuMicro Family Device Support
+   * Component: Startup Version: 0.00.001
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_Target_1
+  C:\Users\nopph\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include
+  C:\Users\nopph\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\RTOS\RTX\INC
+  C:\Users\nopph\AppData\Local\Arm\Packs\Nuvoton\NuMicro_DFP\1.3.10\Device\NUC100\Include
+  C:\Users\nopph\AppData\Local\Arm\Packs\Nuvoton\NuMicro_DFP\1.3.10\Device\NUC100\StdDriver\inc
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ::CMSIS:RTOS:1.0.0 (API)
+
+   * Component: ARM::CMSIS:CORE:5.4.0
+
+   * Component: ARM::CMSIS:RTOS:Keil RTX:4.82.0
+      Source file:   CMSIS\RTOS\RTX\UserCodeTemplates\main.c
+      Source file:   CMSIS\RTOS\RTX\UserCodeTemplates\Timer.c
+      Source file:   CMSIS\RTOS\RTX\SRC\ARM\SVC_Table.s
+      Source file:   CMSIS\RTOS\RTX\UserCodeTemplates\Thread.c
+      Source file:   CMSIS\RTOS\RTX\UserCodeTemplates\MemPool.c
+      Source file:   CMSIS\RTOS\RTX\Templates\RTX_Conf_CM.c
+      Include file:  CMSIS\RTOS\RTX\UserCodeTemplates\osObjects.h
+      Include file:  CMSIS\RTOS\RTX\INC\cmsis_os.h
+      Source file:   CMSIS\RTOS\RTX\UserCodeTemplates\MailQueue.c
+      Library file:  CMSIS\RTOS\RTX\LIB\ARM\RTX_CM0.lib
+      Source file:   CMSIS\RTOS\RTX\UserCodeTemplates\Semaphore.c
+      Source file:   CMSIS\RTOS\RTX\UserCodeTemplates\Mutex.c
+      Source file:   CMSIS\RTOS\RTX\UserCodeTemplates\MsgQueue.c
+
+   * Component: Nuvoton::Device:Startup:0.00.001
+      Include file:  Device\NUC100\Include\NUC100Series.h
+      Source file:   Device\NUC100\Source\ARM\startup_NUC100Series.s
+      Source file:   Device\NUC100\Source\system_NUC100Series.c
+      Source file:   Device\NUC100\StdDriver\src\retarget.c
+Target not created.
+Build Time Elapsed:  00:00:01
+</pre>
+</body>
+</html>
